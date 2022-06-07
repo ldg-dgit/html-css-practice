@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Talk with</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>23:59</span>
+      </div>
+      <div class="status-bar__column">
+        <span>250%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="sign-in-header">
+      <h1 class="sign-in-header__title">Welcome to Talk with</h1>
+      <p class="sign-in-header__text">If you have a Talk with Account, log in with your email or phone number.</p>
+    </header>
+
+    <form action="friends.html" method="get" id="sign-in-form">
+      <input type="text" name="username" required placeholder="Email or phone number" />
+      <input type="password" name="password" required placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Talk with Account or Password</a>
+    </form>
+
+    <script src="https://kit.fontawesome.com/59f4922982.js" crossorigin="anonymous"></script>
+  </body>
+</html>

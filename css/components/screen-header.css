@@ -1,0 +1,24 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 20px 25px 25px;
+  align-items: center;
+}
+
+.screen-header__title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.screen-header__icon span {
+  margin-left: 25px;
+}
+
+#friends-display-link i {
+  color: rgba(0, 0, 0, 0.3);
+  padding-right: 5px;
+}
+
+.fa-chevron-right {
+  padding-left: 5px;
+}

@@ -1,0 +1,70 @@
+.sign-in-header {
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-in-header__title {
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+
+.sign-in-header__text {
+  width: 70%;
+  opacity: 0.8;
+  font-weight: 300;
+}
+
+#sign-in-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 40px;
+  margin-bottom: 100px;
+}
+
+#sign-in-form input {
+  border: none;
+  padding: 15px 0px;
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+#sign-in-form input:not([type="submit"]) {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+}
+#sign-in-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+#sign-in-form input:focus {
+  border-color: var(--ldg-color);
+}
+
+#sign-in-form input[type="submit"] {
+  background-color: var(--ldg-color);
+  cursor: pointer;
+  font-size: 16px;
+  padding: 15px 0px;
+  border-radius: 5px;
+  color: white;
+}
+#sign-in-form a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
+  font-weight: 200;
+}
+
+/* It can write like below (BEM)
+
+.sign-in-form__input {
+}
+.sign-in-form__btn {
+}
+.sign-in-form__a {
+}
+
+*/
