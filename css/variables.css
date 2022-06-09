@@ -1,4 +1,5 @@
 :root {
   --ldg-color: #18a558;
   --horizontal-space: 25px;
+  --main-border: 1px solid rgba(255, 255, 255, 0.5);
 }
