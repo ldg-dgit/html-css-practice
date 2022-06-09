@@ -8,6 +8,7 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
 
 /* Screens */
 @import "screens/sign-in.css";
@@ -15,6 +16,11 @@
 
 body {
   font-family: "Readex Pro";
-  color: #2e363e;
+  background-color: black;
+  color: white;
   height: 1000vh;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }

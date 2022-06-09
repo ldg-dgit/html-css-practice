@@ -7,6 +7,7 @@
   height: 70px;
   border-radius: 30px;
   margin-right: 25px;
+  border: solid 1.25px rgba(255, 255, 255, 0.45);
 }
 
 .user-component,
@@ -22,7 +23,7 @@
 
 .user-component__subtitle {
   margin-top: 5px;
-  color: rgba(0, 0, 0, 0.55);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .user-component__avatar--xl {
@@ -41,5 +42,13 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__time {
+  margin-bottom: 5px;
+  display: block;
 }
