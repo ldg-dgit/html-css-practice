@@ -13,6 +13,7 @@
 /* Screens */
 @import "screens/sign-in.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
   font-family: "Readex Pro";
