@@ -1,3 +1,10 @@
 .chat-screen {
-  background-color: rgb(79, 224, 195);
+  background-color: rgb(0, 39, 87);
+  height: 1000vh;
+}
+
+.chat-header__title {
+  font-size: 25px;
+  font-weight: 400;
+  padding-left: 55px;
 }
