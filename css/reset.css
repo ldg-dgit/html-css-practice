@@ -131,3 +131,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+dir {
+  padding-inline-start: 0;
+}
