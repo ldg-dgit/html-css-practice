@@ -31,3 +31,19 @@
   align-items: center;
   color: rgba(255, 255, 255, 0.7);
 }
+
+.splash-screen {
+  background-color: var(--ldg-color);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.splash-screen img {
+  height: 20%;
+  width: auto;
+}
