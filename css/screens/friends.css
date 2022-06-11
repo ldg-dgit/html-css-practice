@@ -41,8 +41,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: hideSplashScreen 0.5s ease-in-out forwards;
-  animation-delay: 2s;
+  animation: hideSplashScreen 0.3s ease-in-out forwards;
+  animation-delay: 1s;
 }
 
 @keyframes hideSplashScreen {

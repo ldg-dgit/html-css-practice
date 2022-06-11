@@ -24,3 +24,16 @@
 .fa-chevron-right {
   padding-left: 5px;
 }
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icon i:hover {
+  animation: rotateCog 1s linear infinite;
+}
