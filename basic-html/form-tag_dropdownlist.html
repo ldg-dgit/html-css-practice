@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <form action="https://localhost/login.php">
+            <h2>색상</h2>
+
+            <select name="color" id="">
+                <option value="red">red - 홍</option>
+                <option value="green">green - 녹</option>
+                <option value="blue">blue - 청</option>
+            </select>
+            <input type="submit">
+        </form>
+
+        <form action="https://localhost/login.php">
+            <h2>색상 (multiple choice)</h2>
+
+            <select name="color" id="" multiple>
+                <option value="red">red - 홍</option>
+                <option value="green">green - 녹</option>
+                <option value="blue">blue - 청</option>
+            </select>
+            <input type="submit">
+        </form>
+
+        <br/><br/>
+        option value="blue" : 컴퓨터가 고른 정보를 보낼때 보낼 정보<br/>
+        multiple : 다중선택이 가능하게 하는 것인데, 속성값이 없기 때문에 속성 이름만 적으면 된다. 그리고 ctrl을 눌르며 선택하면 다중선택이 된다.
+    </body>
+</html>

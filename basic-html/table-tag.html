@@ -1,0 +1,68 @@
+<html>
+    <body>
+        <table border="3">
+            <thead>
+                <tr>
+                    <th>이름</th>
+                    <th>성별</th>
+                    <th>주소</th>
+                    <th>나이</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>이동규</td>
+                    <td>남자</td>
+                    <td>수원</td>
+                    <th>18</th>
+                </tr>
+                
+                <tr>
+                    <td>이규동</td>
+                    <td>여자</td>
+                    <td rowspan="2">서울</td>
+                    <th>19</th>
+                </tr>
+
+                <tr>
+                    <td>규동이</td>
+                    <td>남자</td>
+                    
+                    <th>20</th>
+                </tr>
+            </tbody>
+            
+            <tfoot>
+                <tr>
+                    <td colspan=3>평군</td>
+                    
+
+                    <td>19</td>
+                </tr>
+            </tfoot>
+            
+        </table>
+
+
+        <br/><br/>
+        td : table data<br/>
+        tr : table row<br/>
+        table로 묶음<br/>
+        boarder : 테두리 (숫자 올라갈수록 두꺼워짐) (css로 꾸밈)<br/><br/>
+        웹페이지 레이아웃을 표로 만드는 것을 많이 했다. <br/>
+        하지만 table은 웹사이트 레이아웃을 잡는데 만든 것이 아니라 데이터 시각화를 위해 만들었다. <br/>
+        그래서 css로 하라고 말을 하고, 그게 더 좋은게 html이 너무 더러워진다.<br/><br/><br/>
+
+        thead : table head / tbody : table body | 표시되는 시각적으로는 차이가 없지만, 제목과 내용을 구분해서 코딩하는 사람이 볼 수 있다.<br/>
+        td태그 대신에 th태그를 통해 제목을 보는 사람들에게 구분해줄 수 있다.<br/><br/>
+
+        tfoor : table footer<br/>
+        신기한 것은 tfoot을 thead와 tbody 사이에 넣어도 맨 아래에 출력된다. 즉, 위치에 영향을 주는 태그이다.<br/>
+        마찬가지로 thead를 맨 아래에 넣어도 맨 위에 출력된다.<br/><br/>
+
+        병합<br/>
+        rowspan="2" : 2개의 행이 병합된다. 그러면 뒤에 행까지 병합되므로 뒤에 행의 내용을 지운다. 내용을 지우지 않으면 그대로 출력되어 해당 열이 한칸씩 밀린다.<br/>
+        colspan : 열을 병합하는 것. 이것도 똑같음,.
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<DOCTYPE html!>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="form.php">
+            <input type="number" name="age" min="10" max="15">
+            <input type="date" name="datev">
+            <input type="month" name="monthv">
+            <input type="week" name="weekv">
+            <input type="time" name="timev">
+            <input type="email" name="emailv">
+            <input type="search" name="searchv">
+            <input type="tel" name="telv">
+            <input type="url" name="urlv">
+            <input type="range" name="rangev" min="0" max="10">
+            <input type="submit">
+        </form>
+
+        <br/><br/>
+        number은 숫자만 입력됨.<br/>
+        input의 type은 사용자가 입력하는 것을 규제할 수 있다.<br/>
+        min, max를 저렇게 정하면 하용자의 입력값을 규제할 수 있는데, 10이상 15이하의 숫자만 입력할 수 있다.<br/>
+        그리고 숫자패드만 나오는 등의 모바일 환경에서 사용환경 개선 가능<br/>
+        사용자가 유도하지 않은 값. 예를 들면 16이상의 값을 넣으면 submit으로 제출하지 못하게 된다.
+    </body>
+</html>

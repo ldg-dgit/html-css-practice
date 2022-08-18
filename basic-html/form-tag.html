@@ -1,0 +1,19 @@
+form은 사용자가 작성한 것을 서버로 전송할 때
+
+<html>
+    <body>
+        <form action="https://localhost/login.php">
+            <p>ID : <input type="text" name="id"></p>
+            <p>PW : <input type="password" name="pw"></p>
+            <p>AGE : <input type="text" name="age"></p>
+            <input type="submit">
+        </form>
+
+        input : 사용자가 입력할 수 있는 박스를 만들 수 있다.<br/>
+        type="text" : text타입을 받을 수 있는<br/>
+        type="password" : 몇글잘를 입력했는지는 알지만, 무슨 글자를 입력했는지는 알 수 없다.<br/>
+        input type="submit" : 버튼을 눌러 제출할 수 있는<br/>
+        form action="" : submit을 눌렀을 때 어디로 전송할지를 쓰는 태그이다.<br/>
+        name="id" : 값만 전송되는 것이 아니라 id라고 알려준다. 직접 해보면 링크가 변화하는데 그걸 보면 이해하기 쉽다
+    </body>
+</html>

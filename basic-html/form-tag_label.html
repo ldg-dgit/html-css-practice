@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="https://localhost/form.php">
+            <p>
+                <label>text</label>
+                <input type="text" name="text" value="Hi">
+            </p>
+            <p>
+                <label for="pw">PW</label>
+                <input type="password" name="pwd" value="1234" id="pw">
+            </p>
+            <p>
+                <label>ID
+                    <input type="text" name="id" value="abcd">
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="check?" value="체크됨"> Check
+                </label>
+            </p>
+        </form>
+
+        <br/><br/>
+        원래는 ID : 이런거를 그냥 썼지만 그건 뭔지 알기 어렵고, 레이블 태그로 텍스트 인풋에 대한 레이블이라는 것을 알릴 수 있다.<br/>
+        label for="" : for을 통해 누구에 레이블인지를 나타낼 수 있다. 그리고 인풋의 속성에 id를 써서 둘이 일치시키면 된다.<be/>
+        label을 클릭하면 그것의 텍스트 필드에 커서가 활성화된다.<br/>
+        label의 for과 input에 id를 쓰기 귀찮으니 ID처럼 전체를 레이블로 묶으면 안써도 된다.<br/>
+    </body>
+</html>

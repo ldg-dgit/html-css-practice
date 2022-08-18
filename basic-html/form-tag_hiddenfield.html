@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="https://localhost/form.php">
+            ID : <input type="text" name="id">
+            <input type="hidden" name="hide" value="hi-hide">
+            <input type="submit">
+        </form>
+
+        <br/><br/>
+    원래는 서버에 데이터를 전송할 때 텍스트필드에 내용을 쓰고, submit을 누르면 전송된다.<br/>
+    하지만 이런 ui(submit 등) 없이 데이터를 전송하는 것도 필요하다<br/><br/>
+
+    hidden은 나타나지 않는다. 하지만 name은 hide, value는 hi-hide로 안보이게 있는 것이다.<br/>
+    이걸 submit하면 hide=hi-hide로 값이 전송된다.
+    </body>
+</html>

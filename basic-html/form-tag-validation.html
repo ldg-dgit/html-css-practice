@@ -1,0 +1,21 @@
+<DOCTYPE HTML!>
+    <html>
+        <head><meta charset="utf-8"></head>
+        <body>
+            <form action="resister.php">
+                <input type="text" name="id" placeholder="ID 일력해" required pattern="[a-zA-Z].+[0-9]">
+                <input type="email" name="email" placeholder="email 입력">
+            </form>
+
+            <br/><br/>
+            만약 이메일 칸에 홈페이지를 넣으면 제출이 안되는 이것도 일종에 유효성 체크. validation이다. <br/><br/>
+            required를 이용하여 필수로 입력해야되는 것을 정할 수 있다.<br/>
+            pattern을 이용하면 안에 정규표현식으로 대문자 몇개 필수 이런 것을 할 수 있다.<br/>
+            정규표현식이라는 프로그래밍 언어로만 pattern을 채운다.<br/>
+            [a-zA-Z] 이건 알파벳 하나만을 의미한다. 따라서 두글자 들어가면 틀림<br/>
+            .은 모든 문자를 뜻한다. 근데 .도 하나만을 뜻한다.<br/>
+            +를 하면. .+는 어떤 문자든 입력할 수 있고, 하나 이상 입력해야한다. 라는 뜻.<br/>
+            [a-zA-Z].+[0-9] 이거는 맨뒤에만 보면 뒤에는 반드시 숫자로 끝나야한다는 의미가 있다.<br/>
+            https://opentutorials.org/course/909/5142
+        </body>
+    </html>

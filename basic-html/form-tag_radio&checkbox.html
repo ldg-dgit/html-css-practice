@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <form action="https://localhost/login.php">
+            <p>
+                <h2>색상 - 단일선택(radio)</h2>
+                빨강 <input type="radio" name="color" value="red">
+                초록 <input type="radio" name="color" value="green" checked>
+                파랑 <input type="radio" name="color" value="blue">
+            </p>
+            <p>
+                <h2>색상 - 자둥선택(checkbox)</h2>
+                연하게 <input type="checkbox" name="color2" value="1" checked>
+                밝게 <input type="checkbox" name="color2" value="2">
+                예쁘게 <input type="checkbox" name="color2" value="3" checked>
+            </p>
+        </form>
+
+        <br/><br/>
+        radio는 name값이 같은 것들끼리 그룹으로 묶이고, 같은 그룹 끼리는 하나를 누르면 다른게 취소되는 이런 방식이다. <br/>
+        checked 속성을 통해 열었을 때 기본적으로 체크되어있도록 할 수 있다.
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta cahrset="utf-8">
+    </head>
+
+    <body>
+          <form action="https://localhost/form.php" method="post">
+              <input type="text" name="text">
+              <input type="submit">
+          </form>
+
+        <br/><br/>
+        원래 submit을 누르면 해당 action 페이지로 넘어가면서 url에 모든 정보가 노출되었다.<br/>
+        method는 어떤 방식으로 정보를 전달할 것인가를 정해주는 것이다.<br/>
+        method="get" : 이게 원래 url으로 보내는 그 방식<br/>
+        post는 url이 아닌 몰래 숨겨서 전송하는 방식<br/>
+        거의 100% post로 전송. 서버에서 get으로 달라고하면 get으로 주면 된다.
+    </body>
+</html>
